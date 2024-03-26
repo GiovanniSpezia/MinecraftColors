@@ -1,0 +1,116 @@
+* { 
+    font-family: sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.BLACK { color: #000000 !important }
+.DARK_BLUE { color: #0000AA !important }
+.DARK_GREEN { color: #00AA00 !important }
+.DARK_AQUA { color: #00AAAA !important }
+.DARK_RED { color: #AA0000 !important }
+.DARK_PURPLE { color: #AA00AA !important }
+.GOLD { color: #FFAA00 !important; }
+.GRAY { color: #AAAAAA !important; }
+.DARK_GRAY { color: #555555 !important; }
+.BLUE { color: #5555FF !important; }
+.GREEN { color: #55ff55 !important; }
+.AQUA { color: #55FFFF !important; }
+.RED { color: #ff5555 !important; }
+.PINK { color: #ff55ff !important; }
+.YELLOW { color: #ffff55 !important; }
+.WHITE { color: #ffffff !important; }
+.BOLD { font-weight: bold; }
+.center-text { text-align: center; }
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.center {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#input, 
+#output {
+    width: 200px;
+    height: 20px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+#input {
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+#output {
+    font-size: 30px;
+    padding-left: 0;
+}
+
+.icon {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.2);
+}
+
+.title {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
